@@ -1,0 +1,27 @@
+# Site settings
+title: Oscar
+description: Hey, I'm Oscar! This is my personal website where you can find my works with software, music, film, video games, and content creation.
+url: "https://www.lazyorcas.com"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+# theme: minima  # Disabled to use custom styling
+
+# GitHub Pages plugins (automatically enabled)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - AGENTS.md
+  - vendor/
+  - .git/
+
+sass:
+  sass_dir: assets/_sass
+  style: compressed
