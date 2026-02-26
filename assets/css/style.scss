@@ -1,0 +1,37 @@
+---
+---
+
+@import "base";
+
+body {
+  font-family: "Cabinet Grotesk", ui-sans-serif, system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: black;
+    color: white;
+  }
+}
+
+main {
+  margin: auto;
+  width: 100%;
+  max-width: 32rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 2rem;
+}
+
+a {
+  @media (prefers-color-scheme: dark) {
+    color: white;
+    text-decoration: underline;
+
+    &:hover {
+      color: #ccc;
+    }
+  }
+}

@@ -1,8 +1,9 @@
 # Site settings
 title: Oscar
-description: Hey, I'm Oscar! This is my personal website where you can find my works with software, music, film, video games, and content creation.
+description: Hey, I'm Oscar! This is my personal website where you can find my works with software, music, film, video games.
 url: "https://www.lazyorcas.com"
 baseurl: ""
+favicon: /assets/images/favicon.ico
 
 # Build settings
 markdown: kramdown
