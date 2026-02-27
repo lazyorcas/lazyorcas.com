@@ -5,27 +5,27 @@ albums:
     sypnosis: A young adventurer set sail to the Pacific with the ambition to explore the Mariana Trench.
     release_date: 2020-05-30
     tracks:
-      - id: 831658372
+      - soundcloud_id: 831658372
         title: I.PACIFIC
-        slug: i-pacific
-      - id: 786339505
+        key: i-pacific
+      - soundcloud_id: 786339505
         youtube_id: qQnGRfrHYKA
-        slug: when-the-sky-was-blue
+        key: when-the-sky-was-blue
         title: When The Sky Was Blue
         story: The young man took a moment to appreciate the blue sky and saved it in his pocket memory. This could be the last time he got to witness it. He then said good bye to his friend, who commandeered the vessel, and sailed off in his watercraft, the Yellowjacket.
-      - id: 786339490
+      - soundcloud_id: 786339490
         title: Deeper in Your Ocean
-        slug: deeper-in-your-ocean
+        key: deeper-in-your-ocean
         story: As he sank deeper into the ocean, the sunlight became dimmer. The Yellowjacket had fully submerged. The sound that its propeller pumps generated would have been strident on the ground, but here, it could not be sensed much further from the capsule; all sounds were muffled.
-      - id: 786339469
+      - soundcloud_id: 786339469
         title: Dimmer
-        slug: dimmer
+        key: dimmer
         story: |
           Moments later, the young man attempted to contact his friend above, but the connection was interrupted over and over. He tried multiple times in a vain attempt to talk to reach his friend but could not reach the surface. At that point, he knew that something was wrong. 
 
           The interior lights gradually became dimmer. Suddenly, the Yellowjacket started to shake and showed signs of malfunction. It looked like the watercraft was no longer connected to the vessel. The Yellowjacket was left alone with her sole crew member, both sinking through layers of water. Any control over the capsule's direction or speed was relinquished. The water pressured increased by the minute.
-      - id: 786339460
-        slug: mariana
+      - soundcloud_id: 786339460
+        key: mariana
         title: Mariana
         story: |
           Hours passed, or were they days? The young man knew not of time anymore, he became disoriented in the ethereal darkness of the ocean. His only endeavours were food and sleep, while he wondered whether someone would be going in his rescue. 
@@ -33,8 +33,8 @@ albums:
           He remembered his childlike excitement to see the ocean floor, the naïve thrill for exploration that got him there. He remembered the drive with which he fuelled countless nights of sleep designing and preparing for this moment. 
 
           At the very least, he promised himself, he would be rewarded with the certainty that he would arrive to his destination. He began to maneuver the watercraft.
-      - id: 786339451
-        slug: resurface
+      - soundcloud_id: 786339451
+        key: resurface
         title: Resurface
         story: |
           Little did he know, there was a gravitational singularity awaiting. In matter of seconds, the Yellowjacket abruptly changed its speed and began accelerating rapidly toward the ocean floor. The Yellowjacket and the young man were sucked into the pitch-black field, far darker than the already lightless layer of the trench.
