@@ -9,7 +9,7 @@
     {% assign cache_bust = site.time | date: '%s' %}
     <link
       rel="stylesheet"
-      href="{{ '/assets/css/music.css' | relative_url }}?v={{ cache_bust }}"
+      href="{{ page.css | relative_url }}?v={{ cache_bust }}"
     />
   </head>
   <body>

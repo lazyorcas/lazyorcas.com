@@ -3,6 +3,7 @@ title: Oscar - The Pitfall of Idealism
 description: A young adventurer set sail to the Pacific with the ambition to explore the Mariana Trench.
 layout: music
 favicon: /assets/images/music/the-pitfall-of-idealism.ico
+css: /assets/css/the-pitfall-of-idealism.css
 ---
 
 {% assign key = "the-pitfall-of-idealism" %}
