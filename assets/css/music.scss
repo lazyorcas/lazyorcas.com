@@ -108,6 +108,7 @@ h1 {
 
 .track-container {
   margin: 0 auto;
+  width: 100%;
   max-width: 48rem;
   display: flex;
   flex-direction: column;
@@ -126,12 +127,8 @@ h2 {
   text-wrap: pretty;
 }
 
-iframe {
-  border-radius: 2rem;
-
-  @media (max-width: 48rem) {
-    border-radius: 1rem;
-  }
+.youtube-iframe {
+  aspect-ratio: 16 / 9;
 }
 
 .track-story {

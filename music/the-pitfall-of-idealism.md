@@ -22,20 +22,18 @@ favicon: /assets/images/music/the-pitfall-of-idealism.ico
   <section>
     <ol class="tracks">
       {% for track in album.tracks %}
-        <li class="container" data-soundcloud-track-id="{{ track.id }}">
-          <div class="track-container">
-            <h2>{{ track.title }}</h2>
-            {% if track.youtube_id %}
-              {% include youtube.html youtube_id=track.youtube_id %}
-            {% else %}
-              {% include soundcloud.html track_id=track.id %}
-            {% endif %}
-            {% if track.story %}
-              <div class="track-story">
-                {{ track.story | markdownify }}
-              </div>
-            {% endif %}
-          </div>
+        <li class="track-container" data-soundcloud-track-id="{{ track.id }}">
+          <h2 class="container">{{ track.title }}</h2>
+          {% if track.youtube_id %}
+            {% include youtube.html youtube_id=track.youtube_id %}
+          {% else %}
+            {% include soundcloud.html track_id=track.id %}
+          {% endif %}
+          {% if track.story %}
+            <div class="container track-story">
+              {{ track.story | markdownify }}
+            </div>
+          {% endif %}
         </li>
       {% endfor %}
     </ol>
