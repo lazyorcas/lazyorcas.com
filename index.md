@@ -8,7 +8,13 @@
   </header>
   <section class="container">
     <h2>Music</h2>
-    <a href="/music/the-pitfall-of-idealism" target="_blank">The Pitfall of Idealism</a>
+    <ol>
+      {% for album in site.data.music.albums %}
+        <li>
+          <a href="/music/{{ album[0] }}">{{ album[1].title }}</a>
+        </li>
+      {% endfor %}
+    </ol>
   </section>
   <footer  class="container">
     <div>
