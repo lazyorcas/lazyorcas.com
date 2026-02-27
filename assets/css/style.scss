@@ -25,6 +25,10 @@ main {
   gap: 2rem;
 }
 
+h1 {
+  text-wrap: pretty;
+}
+
 a {
   @media (prefers-color-scheme: dark) {
     color: white;

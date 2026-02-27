@@ -49,6 +49,11 @@ main {
 header {
   padding-top: 12rem;
   padding-bottom: 4rem;
+
+  @media (max-width: 48rem) {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+  }
 }
 
 .music-header {
