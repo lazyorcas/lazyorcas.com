@@ -30,7 +30,8 @@ body::before {
   content: "";
   position: fixed;
   inset: -10%;
-  z-index: 0;
+  z-index: 1;
+  pointer-events: none;
   background-image: url("/assets/images/music/the-pitfall-of-idealism.webp");
   background-repeat: no-repeat;
   background-position: center 18%;
@@ -40,25 +41,17 @@ body::before {
 }
 
 main {
-  padding: 12rem 0;
   display: flex;
   flex-direction: column;
-  gap: 8rem;
   overflow-x: hidden;
-
-  @supports (animation-timeline: scroll()) {
-    animation: album-page-scroll-blur ease-in both;
-    animation-timeline: scroll();
-    animation-range: 0% 100%;
-  }
-
-  @media (max-width: 48rem) {
-    padding: 8rem 0;
-    gap: 6rem;
-  }
 }
 
 header {
+  padding-top: 12rem;
+  padding-bottom: 4rem;
+}
+
+.music-header {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -99,10 +92,13 @@ h1 {
 .tracks {
   display: flex;
   flex-direction: column;
-  gap: 8rem;
+}
+
+.track {
+  padding: 4rem 0;
 
   @media (max-width: 48rem) {
-    gap: 6rem;
+    padding: 3rem 0;
   }
 }
 
@@ -140,31 +136,34 @@ h2 {
   text-wrap: pretty;
 }
 
-.glow {
-  position: fixed;
-  inset: 0;
-  width: 100vw;
-  z-index: -1;
-  background:
-    linear-gradient(
-      180deg,
-      rgba(203, 201, 183, 0.12) 0%,
-      rgba(203, 201, 183, 0.05) 10%,
-      rgba(54, 149, 162, 0.04) 24%,
-      transparent 44%
-    ),
-    radial-gradient(
-      20rem 28rem at 50% 4%,
-      rgba(203, 201, 183, 0.12),
-      rgba(104, 148, 149, 0.08) 34%,
-      rgba(54, 149, 162, 0.05) 52%,
-      transparent 72%
-    );
+header {
+  background: linear-gradient(to bottom, #161a1a 0%, #211b18 100%);
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0 1rem;
-  width: 100%;
-  max-width: 64rem;
+#i-pacific {
+  background: linear-gradient(to bottom, #211b18 0%, #6e512b 100%);
+}
+
+#when-the-sky-was-blue {
+  background: linear-gradient(to bottom, #6e512b 0%, 50%, #1c2514 100%);
+}
+
+#deeper-in-your-ocean {
+  background: linear-gradient(to bottom, #1c2514 0%, black 100%);
+  filter: blur(0.3px);
+}
+
+#dimmer {
+  background: black;
+  filter: blur(0.7px);
+}
+
+#mariana {
+  background: linear-gradient(to bottom, black 0%, #111202 100%);
+  filter: blur(1px);
+}
+
+#resurface {
+  background: linear-gradient(to bottom, #111202 0%, #122a1b 100%);
+  filter: blur(0.5px);
 }
