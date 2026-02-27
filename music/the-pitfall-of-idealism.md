@@ -39,6 +39,7 @@ favicon: /assets/images/music/the-pitfall-of-idealism.ico
               </div>
             {% endif %}
           </div>
+          <div class="track-glass"></div>
         </li>
       {% endfor %}
     </ol>
